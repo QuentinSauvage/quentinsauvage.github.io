@@ -50,7 +50,7 @@ transition: opacity .2s ease-in-out;
 span.highlight {
     background-color: #ffffd0;
 }
-.portoflio {
+.portfolio {
     width: 170px;
     text-align: center;
     display: inline-block;
@@ -60,7 +60,7 @@ span.highlight {
     padding-bottom: 10px;
 }
 
-.portoflio span.title {
+.portfolio span.title {
     font-weight: bold;
     font-family: Arial;
     font-size: 95%;
