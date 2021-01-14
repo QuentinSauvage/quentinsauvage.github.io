@@ -7,6 +7,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <style type="text/css">
+  /* Color scheme from Sergey Karayev */
+  a {
+  color: #1772d0;
+  text-decoration:none;
+  }
+  a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+  }
+  body,td,th,tr,p,a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px
+  }
+  strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  }
+  heading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  }
+  papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700
+  }
+  name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  }
+  .one
+  {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  }
+  .two
+  {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  }
+  .fade {
+   transition: opacity .2s ease-in-out;
+   -moz-transition: opacity .2s ease-in-out;
+   -webkit-transition: opacity .2s ease-in-out;
+  }
+  span.highlight {
+      background-color: #ffffd0;
+  }
+  .portoflio {
+      width: 170px;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 15px;
+      margin-right: 8px;
+      padding-bottom: 10px;
+  }
+
+  .portoflio span.title {
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 95%;
+      white-space: nowrap;
+  }
+
+  .portfolio div.icon {
+      width: 150px;
+      height: 120px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      margin-left: 10px;
+      padding: 2px;
+      margin-bottom: 5px;
+  }
+
+</style>
 </head>
 
 <body>
@@ -102,7 +186,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Experience</heading>
+              <heading>Professional Experience</heading>
             </td>
           </tr>
         </tbody></table>
@@ -116,6 +200,7 @@
               <p>
                 <a href="https://www.audace-digital-learning.fr/en/">Audace Digital Learning</a><br>
                 AR Developer Intern<br>
+                Douvrin, France<br>
                 <em>June 2020 - November 2020</em><br>
                 <p>Worked on several AR proofs of concept based on the brand new ARKit and ARCore features, serious games and simulators, using Unity Engine.
               </p>
@@ -132,6 +217,7 @@
               <p>
                 <a href="http://www.cril.univ-artois.fr">Lens Computer Science Research Lab (CRIL)</a><br>
                 Developer Intern<br>
+                Lens, France<br>
                 <em>April 2019 - June 2019</em><br>
                 <p>I created an incremental debugger able to find and reduce bugs
                   appearing in programs that solve constraint satisfaction problems. It
@@ -150,6 +236,7 @@
               <p>
                 <a href="https://gfi.world/fr-en/">Inetum (formerly Gfi Informatique)</a><br>
                 Developer Intern<br>
+                Lille, France<br>
                 <em>April 2018 - June 2018</em><br>
                 <p> Development, tests, maintenance and analyse of the softwares created for <em>BNP Paribas</em> using <em>Java EE</em>.</p>
               </p>
@@ -162,10 +249,59 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Service</heading>
+              <heading>Projects</heading>
             </td>
           </tr>
         </tbody></table>
+
+        <div class="portofolio">
+        <a href="https://twitter.com/yongyuanxi/status/1251694374280364032">
+          <span class="title">Retrowave GLSL</span>
+          <div class="icon" style="background-image: url('img/QuentinSauvage.png');"> </div>
+        </a>
+        <i>Tweet GLSL Demo</i>
+      </div>
+
+      <div class="portofolio">
+        <a href="https://www.watonomous.ca">
+          <span class="title">WATonomous</span>
+          <div class="icon" style="background-image: url('img/QuentinSauvage.png');"> </div>
+        </a>
+        <i>Self-driving in 3 years</i>
+      </div>
+
+      <div class="portofolio">
+        <a href="./coolpen.html">
+          <span class="title">Cool Pen</span>
+          <div class="icon" style="background-image: url('img/QuentinSauvage.png');"> </div>
+        </a>
+        <i>Lathed from aluminum</i>
+      </div>
+
+      <div class="portofolio">
+        <a href="./coolpen.html">
+          <span class="title">Cool Pen</span>
+          <div class="icon" style="background-image: url('img/QuentinSauvage.png');"> </div>
+        </a>
+        <i>Lathed from aluminum</i>
+      </div>
+
+      <div class="portofolio">
+        <a href="./coolpen.html">
+          <span class="title">Cool Pen</span>
+          <div class="icon" style="background-image: url('img/QuentinSauvage.png');"> </div>
+        </a>
+        <i>Lathed from aluminum</i>
+      </div>
+
+      <div class="portofolio">
+        <a href="./coolpen.html">
+          <span class="title">Cool Pen</span>
+          <div class="icon" style="background-image: url('img/QuentinSauvage.png');"> </div>
+        </a>
+        <i>Lathed from aluminum</i>
+      </div>
+
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
