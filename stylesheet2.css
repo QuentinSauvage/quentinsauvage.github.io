@@ -79,7 +79,7 @@ span.highlight {
 }
 
 .portfolio2 {
-    width: 370px;
+    width: 340px;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -97,7 +97,7 @@ span.highlight {
 
 .portfolio2 div.icon {
     width: 150px;
-    height: 120px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
