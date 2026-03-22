@@ -10,42 +10,54 @@
   <link rel="stylesheet" type="text/css" href="../stylesheet2.css">
 </head>
 
-<body>
+<body style="background-color:beige">
   <a href="https://quentinsauvage.github.io"><- Home</a>
   <table style="width:100%;max-width:1200px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:40%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>3D Scene Viewer</name>
-              </p>
-              <a href="https://github.com/QuentinSauvage/3DSceneViewer">Project link</a> | December 2019
-              <p>
-                This program was made as a school project during my last year of Master and allows to view, move and rotate 3D geometric objects just like game engines do such as Unity and Unreal Engine, in a simplified way. It takes as input a list of files defining the position of each vertex for each object, in order to draw the triangles of the meshes.
-              </p>
-              <p>
-                It is written in <em>C++</em> and uses the <em>SDL</em> library. It was asked to recreate every vector, matrix and quaternion operations (dot and cross product, transposition, normalisation, etc.) as well as functions related to the <em>transform</em> property of the objects. It contains the definition for some geometric primitives (sphere, plane, triangle, etc.) and finally operations related to the camera. In conclusion, the whole project allows geometric forms rendering without making use of <em>OpenGL</em>.
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="../images/3DSceneViewer/3DSceneViewer.png"><img style="width:100%;max-width:100%;" alt="3D Scene Viewer" src="../images/3DSceneViewer/3DSceneViewer.png" class="hoverZoomLink">
-              <span class="title"  style="margin-left:40%">Scene Preview</span>
-              </a>
-            </td>
-          </tr>
-        </tbody></table>
+        <td style="padding:0px">
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                    <tr style="padding:0px">
+                        <td style="padding:2.5%;width:40%;vertical-align:middle">
+                            <p style="text-align:center">
+                                <name>3D Scene Viewer</name>
+                            </p>
+                            <a href="https://github.com/QuentinSauvage/3DSceneViewer">Project link</a> | December 2019
+                            <p>
+                                This program was made as a school project during my last year of Master and allows to view, move and rotate 3D geometric objects in a simplified way compared to classic game engines. It takes as an input a list of files defining the position of each vertex for each object, in order to draw the triangles of the meshes.
+                            </p>
+                            <p>
+                                It is written in <em>C++</em> and uses the <em>SDL</em> library. I was asked to recreate every vector, matrix and quaternion operations (dot and cross product, transposition, normalisation, etc.) as well as functions related to the <em>transform</em> property of the objects. It contains the definition for some geometric primitives (sphere, plane, triangle, etc.) and finally operations related to the camera.
+                            </p>
+                        </td>
+                        <td style="padding:2.5%;width:40%;max-width:40%">
+                            <a href="../images/3DSceneViewer/Preview.gif">
+                                <img style="width:100%;max-width:100%;" alt="Tetrahedron Preview" src="../images/3DSceneViewer/Preview.gif" class="hoverZoomLink">
+                                <span class="title" style="margin-left:40%">Tetrahedron Preview</span>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Gallery</heading>
-            </td>
-          </tr>
-        </tbody></table>
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+                <tbody>
+                    <tr>
+                        <td>
+                            <heading>Gallery</heading>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
-      </td>
+            <div class="portfolio2">
+                <a href="../images/3DSceneViewer/Preview.png">
+                    <div class="icon" style="background-image: url('../images/3DSceneViewer/Preview.png');"> </div>
+                    <span class="title">Cubes Preview</span>
+                </a>
+            </div>
+
+        </td>
     </tr>
   </table>
 </body>
